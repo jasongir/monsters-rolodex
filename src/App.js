@@ -17,6 +17,13 @@ import "./App.css";
  *    "predeploy": "yarn build",
  *    "deploy": "gh-pages -d build"
  *
+ * yarn deploy
+ * gh-pages -d build
+ * git add -A
+ * git commit -m "first commit"
+ *
+ * git push --set-upstream origin master
+ *
  */
 
 class App extends Component {
